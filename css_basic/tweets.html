@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Page Title</title>
+  <link href="base.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+  <!-- 1. HEADER: Navigation -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tweets.html">Tweets</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- 2. MAIN: Article + Aside -->
+  <main>
+    <article>
+      <h1>My Embedded Tweet</h1>
+      <p>Below is an embedded tweet.</p>
+
+      <blockquote class="twitter-tweet">
+        <p lang="en" dir="ltr">
+          "The only way to do great work is to love what you do." <br />– Steve Jobs
+        </p>
+        &mdash; Fake Steve (@FakeSteve)
+        <a href="https://twitter.com/FakeSteve/status/1234567890123456789?ref_src=twsrc%5Etfw">
+          March 1, 2023
+        </a>
+      </blockquote>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+      <p><a href="index.html">← Back to Home</a></p>
+    </article>
+
+    <aside>
+      <p>placeholder to add comment thread later</p>
+    </aside>
+  </main>
+
+  <!-- 3. FOOTER: Single-line paragraph with ASCII hyphen -->
+  <footer>
+    <p>Made by Your Name - <a href="https://your-link-here.com" target="_blank">here</a>.</p>
+  </footer>
+</body>
+</html>
