@@ -1,0 +1,6 @@
+.custom-bg {
+  background-image: url('../assets/Object.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
