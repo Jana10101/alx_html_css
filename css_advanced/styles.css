@@ -1,6 +1,136 @@
-.custom-bg {
-  background-image: url('../assets/Object.png');
+* {
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  /* transform: scale(0.9);      */
+  /* font-size: 90%; */
+  
+}
+.background{ 
+  background-image: url("assets/Screenshot\ 2025-07-27\ at\ 4.53.48\ PM.png");
+  color: #f0f0f0;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+
+  
+}
+.header{
+  display: flex;
+  align-items: center;
+  height: 100px;
+  justify-content: space-around;
+  
+  padding: 1rem 2rem;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  font-family: "Roboto";
+  font-weight: bold;
+  margin-left: 600px;
+}
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+.logo img{
+  width: 200px;
+  height: auto;
+}
+#h1 {
+  text-align: center;
+  margin-top: 180px;
+  margin-bottom: 0px;
+  font-size: 7rem;     
+  font-weight: 800;
+}
+#h2 {
+  text-align: center;
+  margin-right: 3rem;
+  align-items: center; 
+}
+#buttton1 {
+  display: block;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  color: #fff;
+  background-color: #C271FF;
+  border: none;
+  border-radius: 1200px;
+  cursor: pointer;
+  margin-top: 30px;
+  box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.18);
+}
+.block_header{
+  display: flex;
+  justify-content: center;   
+  align-items: center;       
+}
+
+.phase {
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 90px;
+  font-size: 2rem;       
+  font-weight: 400;
+  color: white;
+}
+
+.highlight {
+  color: #C271FF;
+  font-weight: bold;
+}
+.circle-img {
+  width: 150px;          /* or any fixed size */
+  height: 150px;
+  border-radius: 50%;    /* makes it a perfect circle */
+  object-fit: cover;     /* ensures the image fills the circle without distortion */
+}
+.pro-row {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;                /* spacing between articles */
+  flex-wrap: wrap;          /* wraps on small screens */
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.pro-row article {
+  width: 180px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+.space{
+ margin-top:90px ;
+ height: 40px; 
+}
+.secondPart{
+  background-color: #C271FF;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  color: white;
+}
+.secp{
+  margin-top: 10px;
+  margin-bottom: 10px; 
+ 
+}
+.circle-im{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 350px;
+  width: 150px;          /* or any fixed size */
+  height: 150px;
+  border-radius: 50%;    /* makes it a perfect circle */
+  object-fit: cover; 
 }
